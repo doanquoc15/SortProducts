@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Sort And Filter Products</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <ul class="indicator">
+                    <li data-filter="All" class="active"><a href="#">All</a></li>
+                    <li data-filter="Blazer"><a href="#">Blazer</a></li>
+                    <li data-filter="Watch"><a href="#">Watches</a></li>
+                    <li data-filter="Shoes"><a href="#">Shoes</a></li>
+                    <li data-filter="Mobile"><a href="#">Mobile</a></li>
+                    <li data-filter="Accessories"><a href="#">Accessories</a></li>
+                </ul>
+
+                <!-- Filter -->
+                <div class="filter-condition">
+                    <span>Views As s</span>
+                    <select name="" id="select">
+                        <option value="Default">Default</option>
+                        <option value="LowToHigh">Low to heigh</option>
+                        <option value="HighToLow">Heigh to low</option>
+                    </select>
+                </div>
+            </header>
+
+            <div class="product-filed">
+                <ul class="items">
+                    <!-- Item1 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/bz1.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Blazer</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$35.78</h4>
+                    </li>
+
+                    <!-- Item2 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/bz2.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Blazer</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$55.78</h4>
+                    </li>
+
+                    <!-- Item3 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/bz4.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Blazer</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$45.98</h4>
+                    </li>
+
+                    <!-- Item4 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/one.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Accessories</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$65.5</h4>
+                    </li>
+
+                    <!-- Item5 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/samsung.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Mobile</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$75.68</h4>
+                    </li>
+
+                    <!-- Item6 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/so.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Shoes</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$15.78</h4>
+                    </li>
+
+                    <!-- Item7 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/so1.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Shoes</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$5.78</h4>
+                    </li>
+                    <!-- Item8 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/so2.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Shoes</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$9.3</h4>
+                    </li>
+
+                    <!-- Item9 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/so3.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Shoes</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$12.8</h4>
+                    </li>
+
+                    <!-- Item10 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/wa1.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Watch</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$5.78</h4>
+                    </li>
+
+                    <!-- Item11 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/wa2.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Watch</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$91.3</h4>
+                    </li>
+
+                    <!-- Item12 -->
+                    <li data-category="" data-price="">
+                        <!-- Image -->
+                        <picture>
+                            <img src="./images/wa3.png" alt="">
+                        </picture>
+                        <!-- Detail of the item -->
+                        <div class="detail">
+                            <!-- List icon -->
+                            <p class="icon">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-share-alt-square"></i></span>
+                                <span><i class="fa fa-shopping-basket"></i></span>
+                            </p>
+                            <!-- Category -->
+                            <strong>Shoes</strong>
+                            <!-- Description -->
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <small>Buy Now</small>
+                        </div>
+                        <!-- Price -->
+                        <h4>$9.28</h4>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+    </body>
+</html>
+<script type="text/javascript" src="./js/filter.js"></script>
+<script src="./js/sort.js"></script>
